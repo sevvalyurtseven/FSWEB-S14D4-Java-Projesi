@@ -28,4 +28,13 @@ public abstract class ProductForSale {
     }
 
     public abstract void showDetails();
+
+    @Override
+    public String toString() {
+        return "ProductForSale{" +
+                "type='" + type + '\'' +
+                ", price=" + price +
+                ", description='" + description + '\'' +
+                '}';
+    }
 }
