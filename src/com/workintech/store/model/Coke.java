@@ -11,6 +11,7 @@ public class Coke extends ProductForSale{
 
     @Override
     public void showDetails() {
+        System.out.println(super.toString() + this);
 
     }
 
