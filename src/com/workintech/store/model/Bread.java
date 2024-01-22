@@ -13,4 +13,12 @@ public class Bread extends ProductForSale{
     public void showDetails() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Bread{" +
+                "floorType='" + floorType + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }
