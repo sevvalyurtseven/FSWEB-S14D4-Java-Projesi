@@ -13,4 +13,12 @@ public class Coke extends ProductForSale{
     public void showDetails() {
 
     }
+
+    @Override
+    public String toString() {
+        return "Coke{" +
+                "hasSugar=" + hasSugar +
+                ", size=" + size +
+                '}';
+    }
 }
