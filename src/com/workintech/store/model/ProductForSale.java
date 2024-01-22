@@ -10,4 +10,16 @@ public abstract class ProductForSale {
         this.price = price;
         this.description = description;
     }
+
+    public String getType() {
+        return type;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
 }
