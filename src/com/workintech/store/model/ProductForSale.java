@@ -26,4 +26,6 @@ public abstract class ProductForSale {
     public double getSalesPrice(int quantity){
         return quantity * getPrice();
     }
+
+    public abstract void showDetails();
 }
