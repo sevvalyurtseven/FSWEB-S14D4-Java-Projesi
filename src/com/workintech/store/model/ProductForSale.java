@@ -22,4 +22,8 @@ public abstract class ProductForSale {
     public String getDescription() {
         return description;
     }
+
+    public double getSalesPrice(int quantity){
+        return quantity * getPrice();
+    }
 }
