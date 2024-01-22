@@ -10,4 +10,16 @@ public abstract class Monster {
         this.hitPoints = hitPoints;
         this.damage = damage;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getHitPoints() {
+        return hitPoints;
+    }
+
+    public double getDamage() {
+        return damage;
+    }
 }
