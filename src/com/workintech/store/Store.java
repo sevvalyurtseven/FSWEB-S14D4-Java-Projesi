@@ -1,4 +1,4 @@
-package com.workintech.store.sale;
+package com.workintech.store;
 
 import com.workintech.store.sale.Bread;
 import com.workintech.store.sale.Chocolate;
