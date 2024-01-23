@@ -1,4 +1,4 @@
-package com.workintech.store.model;
+package com.workintech.store.sale;
 
 public class Chocolate extends ProductForSale{
     private String color;

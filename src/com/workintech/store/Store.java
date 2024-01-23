@@ -1,7 +1,9 @@
-import com.workintech.store.model.Bread;
-import com.workintech.store.model.Chocolate;
-import com.workintech.store.model.Coke;
-import com.workintech.store.model.ProductForSale;
+package com.workintech.store;
+
+import com.workintech.store.sale.Bread;
+import com.workintech.store.sale.Chocolate;
+import com.workintech.store.sale.Coke;
+import com.workintech.store.sale.ProductForSale;
 
 public class Store {
     public static void main(String[] args) {

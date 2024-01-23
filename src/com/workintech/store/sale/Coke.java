@@ -1,4 +1,4 @@
-package com.workintech.store.model;
+package com.workintech.store.sale;
 
 public class Coke extends ProductForSale{
     private boolean hasSugar;

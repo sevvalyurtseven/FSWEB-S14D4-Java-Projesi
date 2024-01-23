@@ -1,11 +1,11 @@
-package com.workintech.store.model;
+package com.workintech.store.sale;
 
 public class Bread extends ProductForSale{
-    private String floorType;
+    private String flourType;
     private String color;
-    public Bread(String type, double price, String description, String floorType, String color ) {
+    public Bread(String type, double price, String description, String flourType, String color ) {
         super(type, price, description);
-        this.floorType = floorType;
+        this.flourType = flourType;
         this.color = color;
     }
 
@@ -18,7 +18,7 @@ public class Bread extends ProductForSale{
     @Override
     public String toString() {
         return "Bread{" +
-                "floorType='" + floorType + '\'' +
+                "floorType='" + flourType + '\'' +
                 ", color='" + color + '\'' +
                 '}';
     }
