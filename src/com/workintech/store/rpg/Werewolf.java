@@ -14,6 +14,6 @@ public class Werewolf extends Monster implements Bleedable {
 
     @Override
     public double attack() {
-        return 0;
+        return getDamage() + bleed() ;
     }
 }
