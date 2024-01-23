@@ -15,8 +15,8 @@ public class Store {
     }
 
     public static void listProducts(ProductForSale[] products) {
-        for (ProductForSale product : products){
-            if(product!=null){
+        for (ProductForSale product : products){ //arrayi gez
+            if(product!=null){ //NullPointerException hatasini önler
                 product.showDetails();
             }
         }
