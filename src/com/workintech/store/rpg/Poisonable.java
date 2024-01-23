@@ -1,5 +1,7 @@
 package com.workintech.store.rpg;
 
 public interface Poisonable {
-    public double poison();
+    default double poison(){
+        return 0.3;
+    };
 }
